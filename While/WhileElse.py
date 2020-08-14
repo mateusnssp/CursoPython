@@ -10,4 +10,3 @@ while contador <= 10:
 
 else:         #Else vai agir quando expressão do while se tornar falsa.
     print('Cheguei no else')
-    
