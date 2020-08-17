@@ -1,11 +1,20 @@
+import random
+"""
+range(start = 0 , stop , step = 1)
+"""
+l = []
+for num in range (11):
+    l.append(num)
+print(l)
 
-
-### Gera lista ordenada
+## alternativa mais complexa:
 l, num = [], 0
 while num < 11:
     l.append(num)
     num += 1
 print(l)
+
+
 
 
 
