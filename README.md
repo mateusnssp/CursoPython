@@ -1,9 +1,9 @@
 # CursoPython
 
-## :balance_scale: Direitos de uso:
+## Direitos de uso:
  Este conteúdo não poderá ser utilizado em nenhuma hipótese para ser replicado integral ou parcialmente com finalidades de obter ganho financeiro com ele.
  
-Este repositório é dedicado a ampliar o acesso a informação para o público geral; está em construção; e está inteiramente público conforme as disponibilizações possíveis pelo autor. Leia mais sobre a [Licença](LICENSE) para uso.
+Este repositório é dedicado a ampliar o acesso a informação para o público geral; está em construção; e está inteiramente público conforme as disponibilizações possíveis pelo autor. Leia mais sobre a [Licença](LICENSE) para uso certo.
  
 ## Como usar este repositório para estudos?
 
