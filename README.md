@@ -19,6 +19,7 @@ B | Arquivo sem ligações externas.
 I | Arquivo informativo ou explicativo sobre os outros arquivos do mesmo repositório.
 P | Arquivo que guarda informações de propriedades.
 
+- As demais letras são combinações para apropriar as identificações dos arquivos.
 
 * Cada pasta pode representar um paradigma diferente de linguagem ou assuntos diferentes.
 
