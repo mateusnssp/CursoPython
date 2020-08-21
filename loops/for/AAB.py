@@ -20,7 +20,3 @@ for num in l:
         lista_num_pares.append(num)
 
 print(lista_num_pares)
-
-
-
-
