@@ -1,5 +1,7 @@
 # CursoPython
 
+![python-logo](readme/python-logo.jpg)
+
 ## Direitos de uso:
  Este conteúdo não poderá ser utilizado em nenhuma hipótese para ser replicado integral ou parcialmente com finalidades de obter ganho financeiro com ele.
  
