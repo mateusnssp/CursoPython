@@ -14,11 +14,6 @@ while num < 11:
     num += 1
 print(l)
 
-
-
-
-
-
 lista_num_pares = []
 for num in l:
     if num % 2 == 0:
