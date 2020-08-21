@@ -10,7 +10,15 @@ Este repositório é dedicado a ampliar o acesso a informação para o público 
 ### Organização de arquivos
 
 * Os arquivos são nomeados com códigos de idenficação:
-**A estrutura do código é ´´´A-AAA´´´.**
+**A estrutura do código é ```A-AAA```.** - A primeira letra sempre indica propriedades de relacionamentos com outros arquivos conforme a tabela:
+
+LETRA | SIGNIFICADO
+:---: | :---:
+A | Indica que o arquivo possui outro cuja funcionalidade é idêntica, porém pode conter estrutura diferente.
+B | Arquivo sem ligações externas.
+I | Arquivo informativo ou explicativo sobre os outros arquivos do mesmo repositório.
+P | Arquivo que guarda informações de propriedades.
+
 
 * Cada pasta pode representar um paradigma diferente de linguagem ou assuntos diferentes.
 
