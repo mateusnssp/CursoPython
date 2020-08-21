@@ -19,9 +19,18 @@ B | Arquivo sem ligações externas.
 I | Arquivo informativo ou explicativo sobre os outros arquivos do mesmo repositório.
 P | Arquivo que guarda informações de propriedades.
 
-- As demais letras são combinações para apropriar as identificações dos arquivos.
+* As demais letras são combinações para apropriar as identificações dos arquivos.
+* Os arquivos com mesmos códigos de identificação, indepedentemente do índice (primeira letra), são diretamente relacionados, estando sujeitos a serem iguais, porém capazes de conter diferenças na estrutura, como métodos e paradigmas diferentes.
+* Cada diretório representa um paradigma diferente de linguagem ou assuntos diferentes.
 
-* Cada pasta pode representar um paradigma diferente de linguagem ou assuntos diferentes.
+#### Objetivos dessa organização:
+
+* Associar jeitos diferentes, funcionais e práticos de programar, promovendo melhorias no ato de programar.
+* 
+
+## Práticas:
+
+Para por suas práticas em ação e anexar a teoria como habilidade, há o diretório [problemns](/problems), dedicado a isso.
 
 ## Mídias externas e relacionadas:
 
