@@ -1,6 +1,6 @@
 # CursoPython
 
-![python-logo](readme/python-logo.png)
+
 
 ## Direitos de uso:
  Este conteúdo não poderá ser utilizado em nenhuma hipótese para ser replicado integral ou parcialmente com finalidades de obter ganho financeiro com ele.
@@ -28,13 +28,11 @@ P | Arquivo que guarda informações de propriedades.
 #### Objetivos dessa organização:
 
 * Associar jeitos diferentes, funcionais e práticos de programar, promovendo melhorias no ato de programar.
-* 
 
 ## Práticas:
 
-Para por suas práticas em ação e anexar a teoria como habilidade, há o diretório [problemns](/problems), dedicado a isso.
+Para por suas práticas em ação e anexar a teoria como habilidade, há o diretório [problemns](problems), dedicado a isso.
 
 ## Mídias externas e relacionadas:
 
 [Python-Completo](https://nbviewer.jupyter.org/github/rtadewald/Python-Completo-UDEMY/tree/master/Notebooks%20Traduzidos/)
-

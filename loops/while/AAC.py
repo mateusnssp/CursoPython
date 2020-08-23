@@ -1,4 +1,6 @@
-
+"""
+Conexão do else com while.
+"""
 contador = 1
 acumulador = 1
 
