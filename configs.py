@@ -4,7 +4,7 @@ class Configure():
         pass
 
     def generate(value):
-        """.generate(quantidade de índices necessárias"""
+        """.generate(quantidade de índices necessárias)"""
         string = []
         for i in list(range(1, value + 1)):
             string.append('i.{}'.format(i))
