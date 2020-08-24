@@ -25,4 +25,3 @@ lista_fatiada3 = [lista[3:8]]            #{i.4}
 print(ss.format(s[3], lista_fatiada3))
 lista_fatiada4 = [lista[0::2]]           #{i.5}
 print(ss.format(s[4], lista_fatiada4))
-
