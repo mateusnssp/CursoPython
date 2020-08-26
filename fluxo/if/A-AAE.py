@@ -4,3 +4,4 @@ if log:
 else:
     msg = "Usuário deslogado."
 print(msg)
+del msg

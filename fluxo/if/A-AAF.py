@@ -13,3 +13,4 @@ while Try:
     else:
         msg2 = 'false'
     print('Repetir: {}'.format(msg2))
+    del msg , msg2

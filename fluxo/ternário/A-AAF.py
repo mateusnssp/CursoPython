@@ -5,3 +5,4 @@ while Try:
     Try = True if not age.isnumeric() else False
     print(msg)
     print('Repetir: {}'.format('true' if Try == True else 'false'))
+    del msg
