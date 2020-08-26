@@ -17,10 +17,10 @@ s = set('54632877565')
 print(ss.format(ind[30], s))     #{i..3.0}
 
 """{i..4.0} Operações"""
-a = set('beija-flor')
-b = {'m', 'a', 't', 'e', 'u', 's'}
-print(ss.format(ind[40], 'a: {},\n{} b: {}'.format(a, ' '*(len(ind[40]) + ss.count(' ')), b)))
-print(ss.format(ind[41], a - b))
-print(ss.format(ind[42], a | b))
-print(ss.format(ind[43], a & b))
-print(ss.format(ind[44], a ^ b))
+a = {0, 1, 2, 3, 4, 5, 6}
+b = {3, 4, 5, 6, 7, 8, 9}
+print(ss.format(ind[40], 'a: {},\n{} b: {}'.format(a, ' '*(len(ind[40]) + ss.count(' ')), b))) #i.0.4.0
+print(ss.format(ind[41], a - b)) #i.0.4.1
+print(ss.format(ind[42], a | b)) #i.0.4.2
+print(ss.format(ind[43], a & b)) #i.0.4.3
+print(ss.format(ind[44], a ^ b)) #i.0.4.4
