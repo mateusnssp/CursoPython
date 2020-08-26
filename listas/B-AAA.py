@@ -1,5 +1,5 @@
 from configs import *
-s = Configure.generate(5)
+s = Configure.generate()
 
 lista =    [7, 5, 6, 2, 3, 1, 8, 4, 9, 0]
 # índices:  0, 1, 2, 3, 4, 5, 6, 7, 8, 9

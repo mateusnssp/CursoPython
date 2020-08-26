@@ -1,5 +1,5 @@
 from configs import *
-s = Configure.generate(5)
+s = Configure.generate()
 
 """Métodos em listas"""
 
