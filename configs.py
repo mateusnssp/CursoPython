@@ -6,7 +6,7 @@ class Configure():
     def __init__(self):
         pass
 
-    def generate():
+    def generate(self = None):
         """.generate(quantidade de índices necessários)"""
         lim, quantidade = list(range(10)), range(10)
         string, vl, svl, ssvl = [], lim, lim, lim
@@ -18,4 +18,9 @@ class Configure():
                         string.append('i.{}.{}.{}'.format(ns if ivl == 0 else ivl, ns if isvl == 0 else isvl, issvl))
         return string
 
-ss = '{} : {}'
+def ss(ind, desc, subDesc = ''):
+
+    ss = '{} : {} - {}.' if not subDesc == '' else '{} : {}.'
+
+    indi = Configure.generate()
+    return print(ss.format(indi[ind], str(desc), str(subDesc)))
