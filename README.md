@@ -9,7 +9,7 @@ Este repositório é dedicado a ampliar o acesso a informação para o público 
  
 ## Como usar este repositório para estudos?
 
-### Organização de arquivos
+## Organização de arquivos
 
 * Os arquivos são nomeados com códigos de idenficação:
 **A estrutura do código é ```A-AAA```.** - A primeira letra sempre indica propriedades de relacionamentos com outros arquivos conforme a tabela:
@@ -25,7 +25,12 @@ P | Arquivo que guarda informações de propriedades.
 * Os arquivos com mesmos códigos de identificação, indepedentemente do índice (primeira letra), são diretamente relacionados, estando sujeitos a serem iguais, porém capazes de conter diferenças na estrutura, como métodos e paradigmas diferentes.
 * Cada diretório representa um paradigma diferente de linguagem ou assuntos diferentes.
 
-#### Objetivos dessa organização:
+
+## Navegação
+
+- [Hello World](/main/main.ipynb)
+
+## Objetivos dessa organização:
 
 * Associar jeitos diferentes, funcionais e práticos de programar, promovendo melhorias no ato de programar.
 
