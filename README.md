@@ -38,9 +38,21 @@ P | Arquivo que guarda informações de propriedades.
 
 * Associar jeitos diferentes, funcionais e práticos de programar, promovendo melhorias no ato de programar.
 
+
+## Acesso aleatório a arquivos:
+Veja códigos aleatórios com base no tema:
+
+Tema | Diretório
+:---:|:---:
+Laços | [loops](loops)
+Controle de fluxo | [fluxo](fluxo)
+Recursividade | [recursividade](recursividade)
+ 
 ## Práticas:
 
 Para por suas práticas em ação e anexar a teoria como habilidade, há o diretório [problemns](problems), dedicado a isso.
+
+
 
 ## Mídias externas e relacionadas:
 
