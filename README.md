@@ -44,6 +44,6 @@ Para por suas práticas em ação e anexar a teoria como habilidade, há o diret
 
 ## Mídias externas e relacionadas:
 
-- [Python-Completo](https://nbviewer.jupyter.org/github/rtadewald/Python-Completo-UDEMY/tree/master/Notebooks%20Traduzidos/)- 
+- [Python-Completo](https://nbviewer.jupyter.org/github/rtadewald/Python-Completo-UDEMY/tree/master/Notebooks%20Traduzidos/)
 - [O Tutorial Python](https://docs.python.org/pt-br/3/tutorial/index.html)
 - [Documentação do Python](https://docs.python.org/pt-br/3/)
