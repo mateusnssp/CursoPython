@@ -1,5 +1,4 @@
 from configs import *
-s = Configure.generate()
 
 """Métodos em listas"""
 
@@ -21,11 +20,11 @@ lista_de_frutas.pop()
 """remove() : remove a primeira ocorrência de um objeto"""
 lista_de_frutas.remove('laranja')
 
-"""{i.1} .index() : retorna o índice de tal elemento"""
-print(ss.format(s[0], lista_de_frutas.index('banana')))
+"""{i.0} .index() : retorna o índice de tal elemento"""
+ss(0, lista_de_frutas.index('banana'))
 
-""" {i.2} len(list) : retorna tamanho da lista"""
-print(ss.format(s[1], len(lista_de_frutas)))
+""" {i.1} len(list) : retorna tamanho da lista"""
+ss(1, len(lista_de_frutas))
 
 """.reverse() : inverte a ordem da lista"""
 lista_de_frutas.reverse()
@@ -33,4 +32,4 @@ lista_de_frutas.reverse()
 """.sort() : ordena a lista"""
 lista_de_frutas.sort()
 
-print(lista_de_frutas)
+ss(2, lista_de_frutas)
