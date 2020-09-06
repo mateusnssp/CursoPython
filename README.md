@@ -59,3 +59,12 @@ Para por suas práticas em ação e anexar a teoria como habilidade, há o diret
 - [Python-Completo](https://nbviewer.jupyter.org/github/rtadewald/Python-Completo-UDEMY/tree/master/Notebooks%20Traduzidos/)
 - [O Tutorial Python](https://docs.python.org/pt-br/3/tutorial/index.html)
 - [Documentação do Python](https://docs.python.org/pt-br/3/)
+
+# Para contribuir:
+
+1. Faça um fork do projeto;
+2. Clone o projeto do seu fork (`git clone https://github.com/SEU_USUARIO/CursoPython.git`) **(não se esqueça de mudar SEU_USUÁRIO no link)**;
+3. Crie sua branch para realizar sua modificação (`git checkout -b feature/NOME_DA_MODIFICAÇÃO`);
+4. Após ter realizado suas modificações, faça um commit (`git commit -m "DESCRIÇÃO_DA_MODIFICAÇÃO"`);
+5. Faça o Push para seu repositório (`git push origin feature/NOME_DA_MODIFICAÇÃO`);
+6. No seu repositório no Github crie uma Pull Request para que seja avaliada a suas modificações para ser feito o merge no projeto principal.
