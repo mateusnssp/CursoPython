@@ -1,4 +1,5 @@
 # :warning: Este repositório está em construção, recomendo que apenas contribua e não utilize para fins didáticos ainda. :warning:
+#### Progresso: 32% [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓===================================]
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
