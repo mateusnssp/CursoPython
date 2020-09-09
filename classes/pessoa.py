@@ -23,7 +23,6 @@ class Pessoa():
 
 
 
-
 if __name__ == '__main__':
     test = Pessoa('Teste', 1)
     test.apresentar()

@@ -3,7 +3,6 @@ player = {'health' : 100 , 'attack' : 10 , 'heal' : 10}
 monster = {'health' : 120 , 'attack' : 12}
 run = True
 
-
 def guide():
     print("{1} : Atacar;")
     print("{2} : Curar;")
@@ -12,8 +11,6 @@ def guide():
 def show_status():
     print("monster life : {}".format(monster['health']))
     print("Your life : {}".format(player['health']))
-
-
 
 guide()
 while run:
