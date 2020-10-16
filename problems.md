@@ -11,6 +11,6 @@
 3. ### Dicionários:
 Crie um jogo **Console** <--> **Usuário** de estilo luta, com dicionários para gerenciar as variáveis seguindo a seguinte estrutura:
 
-<img src="./midia/code_structure_B-AAK.png" align="center"/>
+<div align="center"><img src="./midia/code_structure_B-AAK.png"/></div>
 
 [Solução](./dict/B-AAK.py)
