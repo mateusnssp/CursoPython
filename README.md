@@ -41,7 +41,7 @@ Laços | [loops](loops)
 Controle de fluxo | [fluxo](fluxo)
 Recursividade | [recursividade](recursividade)
  
-## Práticas:#
+## Práticas:
 
 Para por suas práticas em ação e anexar a teoria como habilidade, há o diretório [problemns](problems), dedicado a isso.
 
