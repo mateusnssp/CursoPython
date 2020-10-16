@@ -8,4 +8,8 @@
         ---|---
         Operador condicional | [Solução](./fluxo/condicional/A-AAE.py)
         Operador ternário | [Solução](./fluxo/ternário/A-AAE.py)
-    
+3. ### Dicionários:
+Crie um jogo **Console** <--> **Usuário**
+
+
+![Estrutura](./midia/code_structure_B-AAK.png)
