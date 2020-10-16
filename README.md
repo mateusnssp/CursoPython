@@ -1,4 +1,4 @@
-# :warning: Este repositório está em construção, recomendo que apenas contribua e não utilize para fins didáticos ainda. :warning:
+### :warning: Este repositório está em construção, recomendo que apenas contribua e não utilize para fins didáticos ainda. :warning:
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
@@ -41,7 +41,7 @@ Laços | [loops](loops)
 Controle de fluxo | [fluxo](fluxo)
 Recursividade | [recursividade](recursividade)
  
-## Práticas:
+## Práticas:#
 
 Para por suas práticas em ação e anexar a teoria como habilidade, há o diretório [problemns](problems), dedicado a isso.
 
