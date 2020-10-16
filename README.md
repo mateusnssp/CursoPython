@@ -43,7 +43,7 @@ Recursividade | [recursividade](recursividade)
  
 ## Práticas:
 
-Para por suas práticas em ação e anexar a teoria como habilidade, há o diretório [problemns](problems), dedicado a isso.
+Para por suas práticas em ação e anexar a teoria como habilidade, há o arquivo [problemns](./problems.md), dedicado a isso.
 
 
 
