@@ -9,6 +9,6 @@
         Operador condicional | [Solução](./fluxo/condicional/A-AAE.py)
         Operador ternário | [Solução](./fluxo/ternário/A-AAE.py)
 3. ### Dicionários:
-Crie um jogo **Console** <--> **Usuário**
+Crie um jogo **Console** <--> **Usuário** de estilo luta, com dicionários para gerenciar as variáveis seguindo a seguinte estrutura:
 
 <img src="./midia/code_structure_B-AAK.png"/>
