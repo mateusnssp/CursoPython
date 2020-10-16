@@ -11,4 +11,4 @@
 3. ### Dicionários:
 Crie um jogo **Console** <--> **Usuário**
 
-<img src="./midia/code_structure_B-AAK.png" width=40% />
+<img src="./midia/code_structure_B-AAK.png"/>
