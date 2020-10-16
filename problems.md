@@ -6,6 +6,6 @@
     
     Método | Arquivo
     ---|---
-    Operdaor condicional | [Solução](./fluxo/condicional/A-AAE.py)
+    Operador condicional | [Solução](./fluxo/condicional/A-AAE.py)
     Operador ternário | [Solução](./fluxo/ternário/A-AAE.py)
     
