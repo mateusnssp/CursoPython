@@ -4,8 +4,8 @@
 
     1. Crie uma classe que imite o item "usuário". Esta classe deve conter a informação se o usuário encontra-se logado ou não como método construtor predefinido e uma segunda variável contendo uma mensagem otimizada conforme o valor da anterior para que seja apresentada pelo console. 
     
-    Método | Solução
-    ---|---
-    Operador condicional | [Solução](./fluxo/condicional/A-AAE.py)
-    Operador ternário | [Solução](./fluxo/ternário/A-AAE.py)
+        Método | Solução
+        ---|---
+        Operador condicional | [Solução](./fluxo/condicional/A-AAE.py)
+        Operador ternário | [Solução](./fluxo/ternário/A-AAE.py)
     
