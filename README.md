@@ -29,10 +29,10 @@ P | Arquivo que guarda informações de propriedades.
 
 ## Objetivos dessa organização:
 
-* Associar jeitos diferentes, funcionais e práticos de programar, promovendo melhorias no ato de programar.
+* Associar jeitos diferentes, funcionais e práticos de programar, promovendo a importância da arquiteura de software bem estruturada.
 
 
-## Acesso aleatório a arquivos:
+## Tenha acesso aleatório a arquivos:
 Veja códigos aleatórios com base no tema:
 
 Tema | Diretório
