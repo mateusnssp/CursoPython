@@ -1,7 +1,5 @@
 """
 Este script ativa .upper() em todas as letras após um espaço.
-
-DESAFIO: corrigir erro: primeiro caractere sempre fica em sua forma original.
 """
 
 while True:

@@ -1,15 +1,17 @@
-from configs import *
-
 from _collections import deque  #Classe para tornar filas mais eficientes
 
 queue = deque(["Eric", "John", "Michael"])
-ss(0, type(queue), 'tipo') #{i.0.0.0} : tipo
+print(type(queue))
+
 queue.append("Terry")   # Terry chega
-ss(1, queue, 'Terry chega')
+print(queue)
+
 queue.append("Graham")  # Graham chega
-ss(2, queue, 'Graham chega')
+print(queue)
+
 queue.popleft()         # O primeiro a chegar agora sai
-ss(3, queue, 'O primeiro a chegar agora sai')
+print(queue)
+
 queue.popleft()         # O segundo a chegar agora parte
-ss(4, queue, 'O segundo a chegar agora parte')
-ss(5, queue, 'resultado')
+print(queue)
+print(queue)
