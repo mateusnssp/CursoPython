@@ -26,8 +26,9 @@ Trata-se de quanto de espaço o algoritmo precisará para executar suas operaç�
 ## Complexidade de processamento
 
 Uma maneira de calcular a complexidade de processamento seria encontrando alguma fórmula que dê o número exato de operações feitas pelo algoritmo.
-O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução, e três outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a `2 + 3(n/2)`, sendo `n/2` a quantidade de vezes que as três operações elementares do loop for em nosso algoritmo serão executadas, que chamamos de complexidade de processamento. Observe, que tem relação direta com quanto tempo o algoritmo gasta de acordo com a entrada, pois independente do valor de entrada, a quantidade de etapas operacionais de nosso algoritmo sempre será a mesma.
+O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução e mais três outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a `2 + 3(n/2)`, sendo `n/2` a quantidade de vezes que as três operações elementares do loop for em nosso algoritmo serão executadas. Observe, que tem relação de base direta com quanto tempo o algoritmo gasta de acordo com a entrada, pois independente do valor de entrada, a quantidade de etapas operacionais de nosso algoritmo sempre será a mesma, ou em outra forma de dizer, a base para calcular o tempo de processamento de qualquer tarefa para este algoritmo parte da mesma regra matemática, com independência de valores concretos.
 
 ## Referências
 
-https://www.youtube.com/watch?v=KVlGx-9CuO4
+* Introduction to Algorithms por Thomas H. Cormen;
+* [COMPLEXIDADE de ALGORITMOS I - Noção INTUITIVA](https://www.youtube.com/watch?v=KVlGx-9CuO4)
