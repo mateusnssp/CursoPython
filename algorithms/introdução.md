@@ -17,7 +17,13 @@ def InverterLista(lista):
     return lista
 
 ```
+## Complexidade de espaço
 
+Trata-se de quanto de espaço o algoritmo precisará para executar suas operações; isto inclui as variáveis existentes no mesmo. No caso de nosso exemplo, temos cinco variáveis contando com os argumentos da função ou a lista, portanto, a complexidade de espaço é equivalente a `4 + n`, sendo `n` os valores guardados na lista, afinal, a mesma guarda vários valores na mesma variável.
+
+## Complexidade de processamento
+
+Uma maneira de calcular a complexidade de processamento seria encontrando alguma fórmula que dê o número exato de operações feitas pelo algoritmo.
 O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução, e três outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a `2 + 3(n/2)`, sendo `n/2` a quantidade de vezes que as três operações elementares do loop for em nosso algoritmo serão executadas, que chamamos de complexidade de processamento. Observe, que tem relação direta com quanto tempo o algoritmo gasta de acordo com a entrada, pois independente do valor de entrada, a quantidade de etapas operacionais de nosso algoritmo sempre será a mesma.
 
 ## Referências
