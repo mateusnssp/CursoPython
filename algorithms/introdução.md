@@ -20,6 +20,8 @@ def InverterLista(lista):
 
 O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução, e três outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a ![equation](http://www.sciweavers.org/tex2img.php?eq=2%20%2B%203%20%5Ccdot%20%5Cfrac%7Bn%7D%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) .
 
+<img src="http://www.sciweavers.org/tex2img.php?eq=2%20%2B%203%20%5Ccdot%20%5Cfrac%7Bn%7D%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" width="10">
+
 ## Referências
 
 https://www.youtube.com/watch?v=KVlGx-9CuO4
