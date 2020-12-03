@@ -17,9 +17,11 @@ def InverterLista(lista):
     return lista
 
 ```
+Vamos analisar isto nos tópicos seguintes.
+
 ## Complexidade de espaço
 
-Trata-se de quanto de espaço o algoritmo precisará para executar suas operações; isto inclui as variáveis existentes no mesmo. No caso de nosso exemplo, temos cinco variáveis contando com os argumentos da função ou a lista, portanto, a complexidade de espaço é equivalente a `4 + n`, sendo `n` os valores guardados na lista, afinal, a mesma guarda vários valores na mesma variável.
+Trata-se de quanto de espaço o algoritmo precisará para executar suas operações; isto inclui as variáveis existentes no mesmo. No caso de nosso exemplo, temos cinco variáveis contando com os argumentos da função ou a lista, portanto, a complexidade de espaço é equivalente a `4 + n`, sendo `n` os valores guardados na lista, afinal, a mesma guarda vários valores na mesma variável, que varia de acordo com a entrada.
 
 ## Complexidade de processamento
 
