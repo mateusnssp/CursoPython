@@ -1,4 +1,4 @@
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 # Introdução aos algoritmos
 
@@ -18,7 +18,7 @@ def InverterLista(lista):
 
 ```
 
-O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução, e três outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a $2 + 3 \cdot \dfrac{n}{2}$
+O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução, e três outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a $$2 + 3 \cdot \dfrac{n}{2}$$.
 
 ## Referências
 
