@@ -33,14 +33,21 @@ O algoritmo empregado na função `InverterLista` possui 2 operações elementar
 
 # Verificando viabilidade de tempo
 
-Vamos agora por o conceito de complexidade de algoritmo em prática. Para isso, temos a seguir dois duas soluções diferentes para um mesmo problema, a diferença entre ambos está no algorítmo empregado. Vamos analisar o problema e cada solução:
+Vamos agora por o conceito de complexidade de algoritmo em prática. Para isso, temos a seguir duas soluções diferentes para um mesmo problema, a diferença entre ambos está no algorítmo empregado. Vamos analisar e decidir qual das soluções é mais viável:
 
 ### Problema:
 
 Criar uma função que receba um número de entrada e retorne valor `verdadeiro` caso a entrada seja um número primo e valor `falso` caso a entrada seja um número composto.
-As soluções foram as seguintes:
+
 
 ### Solução primeira 
+```
+Se a entrada:
+    * É maior que 1;
+    * For divisível apenas por um e ela mesma.
+a entrada é um número primo
+```
+Este algorítmo em Python se assemelha com isto:
 ```
 def fun1(n):
     if n > 1:
@@ -51,20 +58,28 @@ def fun1(n):
     return False
 ```
 
+O funcionamento de baseia num laço que verifica se cada número de 2 até o antecessor da entrada é divisor da entrada.
+
 Observe aqui, que no pior caso, a função `fun1` executará um total de `(n - 2) - 1` operações.
 
 ### Solução segunda
+
+Já nesta solução, a estrutura de código é idêntica, porém o intervalo de verificação do laço é bem menor, pois o mesmo verifica se cada número de 2 até a raíz quadrada da entrada é divisor da entrada e a expressão `√x < x` é verdadeira. (Matematicamente, este método também é válido).
+
 ``` 
+import math
 def fun2(n):
     if n > 1:
-        for i in range(int(math.sqrt(n)), n - 1):
+        for i in range(2, int(math.sqrt(n))):
             if n % i == 0:
                 return False
         return True
     return False
 ```
 
-Já neste caso, no pior caso, a função `fun2` executará um total de `int((√n)) - 1` operações.
+No pior caso, a função `fun2` executará um total de `int((√n)) - 1` operações.
+
+
 
 || Diego | Júlia |
 :---: | :---: | :---: |
