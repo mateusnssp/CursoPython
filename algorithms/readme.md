@@ -31,7 +31,37 @@ Trata-se de quanto de espaço o algoritmo precisará para executar suas operaç�
 Uma maneira de calcular a complexidade de processamento seria encontrando alguma fórmula que dê o número exato de operações feitas pelo algoritmo.
 O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução e mais quatro outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a `2 + 4(n/2)`, sendo `n/2` a quantidade de vezes que as quatro operações elementares do loop for em nosso algoritmo serão executadas. Como todo atencioso matemático sabe, isto tudo pode ser simplificado para: `2 + 2(n)` Observe, que tem relação de base direta com quanto tempo o algoritmo gasta de acordo com a entrada, pois independente do valor de entrada, a quantidade de etapas operacionais de nosso algoritmo sempre será a mesma, ou em outra forma de dizer, a base para calcular o tempo de processamento de qualquer tarefa para este algoritmo parte da mesma regra matemática, com independência de valores concretos.
 
+# Aplicação Na realidade
+
+
+Diego | Júlia
+:---: | :---: | 
+```
+def fun1(n):
+    if n > 1:
+        for i in range(2, n - 1):
+            if n % i == 0:
+                return False
+        return True
+    return False
+```
+|
+ ```
+def fun2(n):
+    if n > 1:
+        for i in range(int(math.sqrt(n)), n - 1):
+            if n % i == 0:
+                return False
+        return True
+    return False
+    
+```
+
+
+
 ## Referências
 
 * Introduction to Algorithms por Thomas H. Cormen;
 * [COMPLEXIDADE de ALGORITMOS I - Noção INTUITIVA](https://www.youtube.com/watch?v=KVlGx-9CuO4)
+* [Princípios básicos | Complexidade de Algoritmos](https://www.youtube.com/watch?v=gRDl0VIhu4A)
+
