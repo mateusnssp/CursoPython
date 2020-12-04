@@ -57,9 +57,10 @@ def fun2(n):
 
 || Diego | Júlia |
 :---: | :---: | :---: |
-Complexidade de tempo| `(n - 2) - 1` | `(√n) - 2` |
+Complexidade de tempo| `(n - 2) - 1` | `(√n) - 1` |
 Resultado para `n = 11` |`(11 - 2) - 1 = 8`|`(√11 - 1) ≈ 2.3`|
-
+Resultado para `n = 101` |`(101 - 2) - 1 = 98`|`(√101 - 1) ≈ 9.04`|
+Resultado para `n = 10,e+10 + 19` |`(10,e+10 + 19 - 2) - 1 = 10,e+10 + 16`|`√(10,e+10 + 19) - 1 ≈ 10,e+5`|
 
 ## Referências
 
