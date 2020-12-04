@@ -31,10 +31,16 @@ Trata-se de quanto de espaço o algoritmo precisará para executar suas operaç�
 Uma maneira de calcular a complexidade de processamento seria encontrando alguma fórmula que dê o número exato de operações feitas pelo algoritmo.
 O algoritmo empregado na função `InverterLista` possui 2 operações elementares em sua trajetória de execução e mais quatro outras que se repetem de acordo com o tamanho da lista que passamos de entrada. Matematicamente, podemos dizer que a quantidade de processamentos (a quantidade de operações contidas no nosso algoritmo) é o equivalente a `2 + 4(n/2)`, sendo `n/2` a quantidade de vezes que as quatro operações elementares do loop for em nosso algoritmo serão executadas. Como todo atencioso matemático sabe, isto tudo pode ser simplificado para: `2 + 2(n)` Observe, que tem relação de base direta com quanto tempo o algoritmo gasta de acordo com a entrada, pois independente do valor de entrada, a quantidade de etapas operacionais de nosso algoritmo sempre será a mesma, ou em outra forma de dizer, a base para calcular o tempo de processamento de qualquer tarefa para este algoritmo parte da mesma regra matemática, com independência de valores concretos.
 
-# Aplicação Na realidade
+# Verificando viabilidade de tempo
 
+Vamos agora por o conceito de complexidade de algoritmo em prática. Para isso, temos a seguir dois duas soluções diferentes para um mesmo problema, a diferença entre ambos está no algorítmo empregado. Vamos analisar o problema e cada solução:
 
-### Solução do Diego 
+### Problema:
+
+Criar uma função que receba um número de entrada e retorne valor `verdadeiro` caso a entrada seja um número primo e valor `falso` caso a entrada seja um número composto.
+As soluções foram as seguintes:
+
+### Solução primeira 
 ```
 def fun1(n):
     if n > 1:
@@ -44,7 +50,10 @@ def fun1(n):
         return True
     return False
 ```
-### Solução da Júlia 
+
+Observe aqui, que no pior caso, a função `fun1` executará um total de `(n - 2) - 1` operações.
+
+### Solução segunda
 ``` 
 def fun2(n):
     if n > 1:
@@ -54,6 +63,8 @@ def fun2(n):
         return True
     return False
 ```
+
+Já neste caso, no pior caso, a função `fun2` executará um total de `int((√n)) - 1` operações.
 
 || Diego | Júlia |
 :---: | :---: | :---: |
