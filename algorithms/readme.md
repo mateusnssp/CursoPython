@@ -34,8 +34,7 @@ O algoritmo empregado na função `InverterLista` possui 2 operações elementar
 # Aplicação Na realidade
 
 
-Diego | Júlia
-:---: | :---: | 
+### Solução do Diego 
 ```
 def fun1(n):
     if n > 1:
@@ -45,8 +44,8 @@ def fun1(n):
         return True
     return False
 ```
-|
- ```
+### Solução da Júlia 
+``` 
 def fun2(n):
     if n > 1:
         for i in range(int(math.sqrt(n)), n - 1):
@@ -54,9 +53,12 @@ def fun2(n):
                 return False
         return True
     return False
-    
 ```
 
+|| Diego | Júlia |
+:---: | :---: | :---: |
+Complexidade de tempo| `(n - 2) - 1` | `(√n) - 2` |
+Resultado para `n = 11` |`(11 - 2) - 1 = 8`|`(√11 - 1) ≈ 2.3`|
 
 
 ## Referências
