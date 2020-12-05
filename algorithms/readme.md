@@ -33,7 +33,7 @@ O algoritmo empregado na função `InverterLista` possui 2 operações elementar
 
 # Verificando viabilidade de tempo
 
-Vamos agora por o conceito de complexidade de algoritmo em prática. Para isso, temos a seguir duas soluções diferentes para um mesmo problema, a diferença entre ambos está no algorítmo empregado. Vamos analisar e decidir qual das soluções é mais viável:
+Vamos agora pôr o conceito de complexidade de algoritmo em prática. Para isso, temos a seguir duas soluções diferentes para um mesmo problema. A diferença entre ambos está no algorítmo empregado. Vamos analisar e decidir qual das soluções é mais viável:
 
 ### Problema:
 
@@ -47,7 +47,7 @@ Se a entrada:
     * For divisível apenas por um e ela mesma.
 a entrada é um número primo
 ```
-Este algorítmo em Python se assemelha com isto:
+Este algorítmo, em Python se assemelha com isto:
 ```
 def fun1(n):
     if n > 1:
@@ -58,7 +58,7 @@ def fun1(n):
     return False
 ```
 
-O funcionamento de baseia num laço que verifica se cada número de 2 até o antecessor da entrada é divisor da entrada.
+O funcionamento se baseia num laço que verifica se cada número de 2 até o antecessor da entrada é divisor da entrada.
 
 Observe aqui, que no pior caso, a função `fun1` executará um total de `(n - 2) - 1` operações.
 
