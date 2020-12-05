@@ -79,6 +79,8 @@ def fun2(n):
 
 No pior caso, a função `fun2` executará um total de `int((√n)) - 1` operações.
 
+### Comparação das soluções
+
 || Solução primeira | Solução segunda |
 :---: | :---: | :---: |
 Complexidade de tempo| `(n - 2) - 1` | `(√n) - 1` |
