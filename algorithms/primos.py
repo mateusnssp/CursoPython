@@ -1,5 +1,5 @@
 
-# Solução do Diego
+# Solução primeira -> (n - 1) - 2
 def fun1(n):
     if n > 1:
         for i in range(2, n - 1):
@@ -7,11 +7,10 @@ def fun1(n):
                 return False
         return True
     return False
-# (n - 1) - 2
 
 print(fun1(997))
 
-# Solução da Júlia
+# Solução segunda -> (int(sqrt(n)) - 2)
 
 import math
 def fun2(n):
@@ -21,10 +20,5 @@ def fun2(n):
                 return False
         return True
     return False
-# (int(sqrt(n)) - 2)
 
-print(f'Júlia: {fun2(997)}')
-
-
-
-print(list(range(2, 4 - 1)))
+print(fun2(997))
