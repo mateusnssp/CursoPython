@@ -90,7 +90,7 @@ Resultado para `n = 10,e+10 + 19` |`(10,e+10 + 19 - 2) - 1 = 10,e+10 + 16`|`√(
 
 Observe no gráfico, que o tempo gasto para a execução da primeira solução (vermelho), cresce exponencialmente em relação à complexidade da segunda solução (azul), ou em palavras que pareçam mais compatíveis com o gráfico, o tempo gasto pela segunda solução é exponencialmente menor que o gráfico da primeira solução.
 
-![Gráfico-complexidade-dos-algorítmos](../midia/grafico_complexidade_de_algoritmos.jpg)
+![Gráfico-complexidade-dos-algorítmos](../midia/grafico_complexidade_de_algoritmos-dark.png)
 
 Sendo assim, a última solução é a mais viável para resolver o problema.
 
